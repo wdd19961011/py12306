@@ -3,6 +3,5 @@
 .DS_Store
 venv
 __pycache__
-env.slave.py
 env.docker.py
 docker-compose.yml
