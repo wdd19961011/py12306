@@ -5,8 +5,8 @@ USER_ACCOUNTS = [
     # 目前已支持仅查询，不下单，屏蔽掉下面的账号即可
     {
         'key': 0,  # 如使用多个账号 key 不能重复
-        'user_name': 'your user name',
-        'password': 'your password'
+        'user_name': '15861816753',
+        'password': 'wdd19961011'
     },
     # {
     #     'key': 'wangwu',
@@ -24,7 +24,7 @@ QUERY_INTERVAL = 1
 USER_HEARTBEAT_INTERVAL = 120
 
 # 多线程查询
-QUERY_JOB_THREAD_ENABLED = 0  # 是否开启多线程查询，开启后第个任务会单独分配线程处理
+QUERY_JOB_THREAD_ENABLED = 1  # 是否开启多线程查询，开启后第个任务会单独分配线程处理
 
 # 打码平台账号
 # 目前只支持免费打码接口 和 若快打码，注册地址：http://www.ruokuai.com/login
